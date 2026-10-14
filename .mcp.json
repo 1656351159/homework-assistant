@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "homework-browser": {
+      "command": "powershell.exe",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${PLUGIN_ROOT}/skills/homework-assistant/scripts/start-browser-mcp.ps1"]
+    }
+  }
+}
